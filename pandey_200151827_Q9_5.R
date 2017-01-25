@@ -1,0 +1,7 @@
+mu=c(69,166)
+sigma=matrix(c(9,45,45,400),2,2)
+bivariate_norm_rand_var<-mvrnorm(n=100, mu, sigma)
+qqnorm(bivariate_norm_rand_var[,1], main="Normal distribution of height in inches")
+qqline(bivariate_norm_rand_var[,1])
+qqnorm(bivariate_norm_rand_var[,2], main="Normal distribution of weight in pounds")
+qqline(bivariate_norm_rand_var[,2])

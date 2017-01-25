@@ -1,0 +1,6 @@
+random_variable<-rnorm(100)
+mean(random_variable)
+sd(random_variable)
+var(random_variable)
+median(random_variable)
+quantile(random_variable)
